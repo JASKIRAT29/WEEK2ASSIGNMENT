@@ -1,35 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&subset=greek,cyrillic" rel="stylesheet"><!-- Font style from googleapis -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float" rel="stylesheet"> <!-- Font style from googleapis -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Jaskirat Portfolio</title>
-</head>
-<body>
-    <header>
-        <span class="span-background title"> <!-- Class for title background -->
-            <h1>Jaskrat Portfolio</h1>
-        </span>
-        <nav>
-            <ul class="nav-effects"> <!-- Header nav bar -->
-                <li>
-                    <!-- Anchor elements -->
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li> <!-- This anchor href type action is to download my resume -->
-                    <a href="./assets/documents/JaskiratKaurResume-Canada.docx" download>Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jaskirat Portfolio</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+
+    <body>
+        <!-- header and nav section start -->
+        <header>
+            <div><h1>Jaskirat Portfolio</h1></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my-work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="./assets/documents/jaskirat Resume.DOCX" target="_blank">My Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- hero image section start -->
+        <section class="hero">
+            <div>
+                <img src="./assets/images/jaskiratpic.JPG" alt="An image of Joe Lawton">
+            </div>
+            <div class="quote">
+                <blockquote>
+                    <p id="quote-text">
+                      Positive anything is better than negative nothing.
+
+                      <br> Success is the sum of small efforts repeated day in and day out.
+                    </p>
+                    <p>
+                        -Robert Collier<br>
+                        --Michael Scott
+                    </p>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- about me section start -->
+        <section id="about-me" class="about-me">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+            
+            <div>
+                <p>
+                  I am determined to be cheerful and happy in whatever situation I may find myself. For I have learned that the greater part of our misery or unhappiness is determined not by our circumstance but by our disposition.
+                    <br><br>
+                    I do not know what I may appear to the world, but to myself I seem to have been only like a boy playing on the seashore, and diverting myself in now and then finding a smoother pebble or a prettier shell than ordinary, whilst the great ocean of truth lay all undiscovered before me.
+                </p>
+            </div>
+        </section>
+
+        <!-- my work section start -->
+        <section id="my-work" class="my-work">
+            <div class="title"><h2>My Work</h2></div>
+            <div class = "projects-grid-wrapper">
+                <div class="projects-grid">
+
+                    <a href="https://github.com/JASKIRAT29/" target="_blank" class="Horiseon">
+                        <div class="Horiseon">
+                            <h3>Horiseon</h3>
+                            <p>HTML/CSS</p>
+                        </div>
+                    </a>
+                    <a href="https://jaskirat.github.io/mission/" target="_blank" class="project mission">
+                        <div class="project-label">
+                            <h3>mission</h3>
+                            <p>JavaScript</p>
+                        </div>
+                    </a>
+                    <a href="https://jaskirat.github.io/Professional/" target="_blank" class="Professional">
+                        <div class="project-label">
+                            <h3>Professional</h3>
+                            <p>HTML/CSS/JavaScript</p>
+                        </div>
+                    </a>
+                    <a href="https://jaskirat.github.io/polar" target="_blank" class="project polar">
+                        <div class="project-label">
+                            <h3>polar</h3>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank"  class="project project5">
+                        <div class="project-label">
+                            <h3>Project 5</h3>
+                            <p>Placeholder</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact info section -->
+        <footer id="contact-me">
+            <div class="title"><h2>Contact Me</h2></div>
+            <div class="content-wrapper">
+                <div id="contact-list">
+                    <ul>
+                        <li>
+                            <a href="jaskirat@gmail.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/jaskirat29" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <p>(575) 565-0234</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
